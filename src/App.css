@@ -40,3 +40,9 @@
 .read-the-docs {
   color: #888;
 }
+
+.formInterface {
+  border:2px solid red;
+  height: 20%;
+  width: 20%
+}
