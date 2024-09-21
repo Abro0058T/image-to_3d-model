@@ -9,25 +9,19 @@ export default function BuildFurniture({ data }) {
   console.log(data);
   console.log(data["name"]);
   const furniture = {
-    0: "bedGltf",
-    1: "doorGltf",
-    2: "bedGltf",
+    0: "bedGltf2",
+    1: "doorGltf2",
+    2: "sofaGltf2",
     3: "sofaGltf",
     // '4': 'stairs',
-    4: "doorGltf",
+    4: "doorGltf2",
     5: "windowGltf",
   };
-  const { nodes, materials } = useGLTF(`/${furniture[0]}.gltf`);
+  const { nodes, materials } = useGLTF(`/${furniture[1]}.gltf`);
+  console.log(nodes[Object.keys(nodes)[1]])
   return (
     <mesh
-      //   {...props}
-      // position={
-      //   (data.coordinate[0],
-      //   data.coordinate[1],
-      //   data.coordinate[2],
-      //   data.coordinate[3])
-      // }
-      scale={[6, 6, 6]}
+      scale={[.1, .1, .1]}
       position={
         [
           data.coordinate[0] == data.coordinate[2]

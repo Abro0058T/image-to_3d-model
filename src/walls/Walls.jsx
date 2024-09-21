@@ -16,7 +16,7 @@ export default function Walls(props) {
       rotation={[0, props.rotation ? props.rotation : 0, 0]}
       ref={meshRef}
     >
-      <boxGeometry args={[props.size/10, 7, 0.6]} />
+      <boxGeometry args={[props.size/10, 7, 2]} />
       <meshStandardMaterial
         color={hovered ? "hotpink" : "orange"}
         map={colorMap}
