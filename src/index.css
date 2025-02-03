@@ -1,5 +1,45 @@
-#root{
-  width:100vw;
-  height:100vh;
-  background-color: rgb(161, 159, 159);
+/* index.css */
+@import "tailwindcss";
+
+/* Apply universal styles */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif; /* or any font of your choice */
+  margin: 0;
+  padding: 0;
+}
+
+/* Universal button design */
+.btn {
+  @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all ease-in-out;
+}
+
+/* Optional: If you want to apply styles to all links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Apply styling to other universal elements as needed */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+/* Optional: Style scrollable sections */
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
