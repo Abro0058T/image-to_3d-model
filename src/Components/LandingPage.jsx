@@ -9,7 +9,7 @@ import Tech from "./Tech"; // Import Tech
 function LandingPage() {
   return (
     <div className="landing-page">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Tech />

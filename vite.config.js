@@ -10,4 +10,9 @@ export default defineConfig({
   server: {
     historyApiFallback: true, // Ensures routing works without page reloads
   },
+  resolve: {
+    alias: {
+      "@tabler/icons-react": "@tabler/icons-react/dist/index.mjs",
+    },
+  },
 });
