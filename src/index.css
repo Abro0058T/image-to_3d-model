@@ -2,12 +2,20 @@
 @import "tailwindcss";
 
 /* Apply universal styles */
+/* Apply universal styles */
 body {
-  background-color: black;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 79, 1) 100%
+  );
+
   color: white;
   font-family: Arial, sans-serif; /* or any font of your choice */
   margin: 0;
   padding: 0;
+  min-height: 100vh; /* Ensure the background covers the full viewport */
 }
 
 /* Universal button design */
