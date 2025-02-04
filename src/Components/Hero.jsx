@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="w-full mx-auto rounded-md h-[50rem] overflow-hidden">
       <Vortex
-        backgroundColor="black"
+        backgroundColor="transparent"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full" // Ensure width is set to full
         containerClassName="w-full" // Ensure container is full width
       >

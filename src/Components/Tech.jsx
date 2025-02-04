@@ -9,8 +9,8 @@ export function CanvasRevealEffectDemo() {
     <>
       <h2 className="text-3xl md:text-5xl font-bold">Technologies</h2>
 
-      <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
-        <Card icon="Frontend Development">
+      <div className="py-20 flex flex-col lg:flex-row items-center justify-center   w-full gap-4 mx-auto px-8">
+        <Card icon="Frontend Development" >
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
