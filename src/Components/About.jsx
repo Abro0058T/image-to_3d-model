@@ -3,7 +3,7 @@ import { CompareDemo } from "./About2";
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col md:flex-row items-start px-6 md:px-16 py-12 text-white">
+    <div className="w-full mt-12 mb-12 min-h-screen flex flex-col md:flex-row items-start px-6 md:px-16 py-12 text-white">
       {/* Left Half - Heading & Summary */}
       <div className="w-full md:w-1/2 flex flex-col justify-start text-center md:text-left self-start">
         <h2 className="text-3xl md:text-5xl font-bold">About</h2>
