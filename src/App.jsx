@@ -9,6 +9,7 @@ import LandingPage from "./Components/LandingPage"; // Import the new landing pa
 import FormInterface from "./Components/FormInterface"; // You can add more pages as needed
 
 function App() {
+  const BASE_URL = "http://127.0.0.1:5000";
   return (
     <Router>
       <Routes>

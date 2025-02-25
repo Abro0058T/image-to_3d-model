@@ -1,0 +1,59 @@
+.star-button {
+  position: relative;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.star svg {
+  width: 100%;
+  height: 100%;
+  fill: gold;
+}
+
+.star-1 {
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.star-2 {
+  top: 50%;
+  right: -10px;
+  transform: translateY(-50%);
+}
+.star-3 {
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.star-4 {
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+}
+.star-5 {
+  top: 10%;
+  right: 10%;
+}
+.star-6 {
+  bottom: 10%;
+  left: 10%;
+}
+
+.star-button:hover .star {
+  opacity: 1;
+  transform: scale(1.5);
+}

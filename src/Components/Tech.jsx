@@ -7,10 +7,11 @@ import { CanvasRevealEffect } from "./CanvasEffect";
 export function CanvasRevealEffectDemo() {
   return (
     <>
-      <h2 className="text-3xl md:text-5xl font-bold">Technologies</h2>
-
+      <h2 className="text-3xl md:text-5xl font-bold text-center w-full">
+        Technologies
+      </h2>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center   w-full gap-4 mx-auto px-8">
-        <Card icon="Frontend Development" >
+        <Card icon="Frontend Development">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
