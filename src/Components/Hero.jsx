@@ -1,7 +1,7 @@
 import React from "react";
 import { Vortex } from "./vortex";
 import { useNavigate } from "react-router-dom";
-import StarButton from "../walls/button1"; // Import the StarButton component
+
 const Hero = () => {
   const navigate = useNavigate(); // Hook for navigation
 
